@@ -130,10 +130,9 @@ Select multiple PDF files using the "Add pdf"
 button and select the location and filename 
 where the combined PDF should be saved.
 
-Then press "Combine PDFs". This will bring 
-up a warning that a network executable (qpdf)
-is about to run, press OK to this and the output
-file will appear in the target folder.
+Then press "Combine PDFs" and the output 
+file should appear where specified once the
+black console window disappears.
 </value>
   </data>
 </root>

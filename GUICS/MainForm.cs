@@ -85,6 +85,7 @@ namespace GUICS
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                label_error.Text = "Something went wrong, check settings and try again.";
             }
         }
 

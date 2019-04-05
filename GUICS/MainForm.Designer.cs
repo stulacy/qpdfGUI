@@ -42,10 +42,10 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.label1 = new System.Windows.Forms.Label();
+            this.label_success = new System.Windows.Forms.Label();
+            this.label_error = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button_reset_pdfs = new System.Windows.Forms.Button();
-            this.label_error = new System.Windows.Forms.Label();
-            this.label_success = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -195,9 +195,29 @@
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(8, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(325, 180);
+            this.label1.Size = new System.Drawing.Size(315, 162);
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
+            // 
+            // label_success
+            // 
+            this.label_success.AutoSize = true;
+            this.label_success.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_success.ForeColor = System.Drawing.Color.LawnGreen;
+            this.label_success.Location = new System.Drawing.Point(252, 536);
+            this.label_success.Name = "label_success";
+            this.label_success.Size = new System.Drawing.Size(0, 20);
+            this.label_success.TabIndex = 15;
+            // 
+            // label_error
+            // 
+            this.label_error.AutoSize = true;
+            this.label_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_error.ForeColor = System.Drawing.Color.Red;
+            this.label_error.Location = new System.Drawing.Point(252, 542);
+            this.label_error.Name = "label_error";
+            this.label_error.Size = new System.Drawing.Size(0, 20);
+            this.label_error.TabIndex = 14;
             // 
             // groupBox2
             // 
@@ -223,26 +243,6 @@
             this.button_reset_pdfs.Text = "Clear all";
             this.button_reset_pdfs.UseVisualStyleBackColor = true;
             this.button_reset_pdfs.Click += new System.EventHandler(this.button_reset_pdfs_Click);
-            // 
-            // label_error
-            // 
-            this.label_error.AutoSize = true;
-            this.label_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_error.ForeColor = System.Drawing.Color.Red;
-            this.label_error.Location = new System.Drawing.Point(252, 542);
-            this.label_error.Name = "label_error";
-            this.label_error.Size = new System.Drawing.Size(0, 20);
-            this.label_error.TabIndex = 14;
-            // 
-            // label_success
-            // 
-            this.label_success.AutoSize = true;
-            this.label_success.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_success.ForeColor = System.Drawing.Color.LawnGreen;
-            this.label_success.Location = new System.Drawing.Point(252, 536);
-            this.label_success.Name = "label_success";
-            this.label_success.Size = new System.Drawing.Size(0, 20);
-            this.label_success.TabIndex = 15;
             // 
             // MainForm
             // 
